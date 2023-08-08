@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -8,6 +10,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
+
 import { Line } from "react-chartjs-2";
 // import * as faker from "faker";
 // to
@@ -39,6 +42,8 @@ export const options = {
   },
 };
 
+// TODO: Implement back-end
+
 const labels = ["January", "February", "March", "April", "May", "June", "July"];
 
 export const data = {
@@ -59,7 +64,7 @@ export const data = {
   ],
 };
 
-export default function Graph1() {
+export default function LineGraph() {
   return (
     <div className="h-full w-full bg-slate-200">
       <Line options={options} data={data} />

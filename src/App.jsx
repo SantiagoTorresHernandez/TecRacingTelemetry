@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar";
-import Graph1 from "./components/graphs_container";
+import LineGraph from "./components/LineGraph";
 import "./App.css";
 
 function App() {
@@ -8,21 +8,10 @@ function App() {
       <div className="w-screen bg-gradient-to-b from-black to-purple-800">
         <Navbar />
         <div className="grid min-h-screen grid-cols-2">
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
-          <Graph1 />
+          <LineGraph />
+          <LineGraph />
+          <LineGraph />
+          <LineGraph />
         </div>
       </div>
     </>
