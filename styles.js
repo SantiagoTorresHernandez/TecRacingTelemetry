@@ -1,0 +1,226 @@
+import {StyleSheet} from 'react-native';
+
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+    //   alignItems: 'center',
+    //   justifyContent: 'center',
+    },
+    title:{
+        fontSize: 30,
+        fontWeight: 'bold',
+        textFontFamily: 'poppins',
+    },
+    titleContainer:{
+        position: 'absolute',
+        top: 15,
+        left: 35,
+    },
+    logo:{
+        position: 'absolute',
+        top: 0,
+        right: 10,
+    },
+    logoImage:{
+        width: 75,
+        height: 75,
+        resizeMode: 'contain',
+    },
+    background:{
+        flex: 1,
+        flexDirection: 'row',
+    },
+    squareLeft:{
+        //flex: 1,
+        backgroundColor: '#400099',
+        borderRadius: 10,
+        width: 320, //320
+        height: 490, //500
+        top: 75, //10
+        left: 20, //450
+    },
+    squareRight:{
+        backgroundColor: '#400099',
+        borderRadius: 10,
+        width: 900,
+        height: 490,
+        bottom: 415,
+        left: 350,
+    },
+    generalInfo:{
+        fontSize: 25,
+        fontWeight: '500',
+        color: 'white',
+        textAlign: 'center',
+        top: 10,
+    },
+    driver:{
+        fontSize: 10,
+        fontWeight: 'normal',
+        color: 'white',
+        left: 10,
+        top: 20,
+    },
+    input:{
+        textAlign: 'center',
+        fontSize: 20,
+        fontWeight: '500',
+    },
+    driverInfo:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 300,
+        height: 25,
+        left: 10,
+        top: 20,
+    },
+    engineer:{
+        fontSize: 10,
+        fontWeight: 'normal',
+        color: 'white',
+        left: 10,
+        top: 30,
+    },
+    engineerInfo:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 300,
+        height: 25,
+        left: 10,
+        top: 30,
+    },
+    location:{
+        fontSize: 10,
+        fontWeight: 'normal',
+        color: 'white',
+        left: 10,
+        top: 40,
+    },
+    locationInfo:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 300,
+        height: 25,
+        left: 10,
+        top: 40,
+    },
+    date:{
+        fontSize: 10,
+        fontWeight: 'normal',
+        color: 'white',
+        left: 10,
+        top: 50,
+    },
+    dateInfo:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 300,
+        height: 25,
+        left: 10,
+        top: 50,
+    },
+    input2:{
+        textAlign: 'center',
+        fontSize: 30,
+        fontWeight: '500',
+        bottom: 10,
+    },
+    laps:{
+        fontSize: 10,
+        fontWeight: 'normal',
+        color: 'white',
+        left: 10,
+        top: 60,
+    },
+    lapsNum:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 140,
+        height: 100,
+        left: 10,
+        top: 60,
+    },
+    lapsTotal:{
+        fontSize: 10,
+        fontWeight: 'normal',
+        color: 'white',
+        left: 160,
+        bottom: 53,
+    },
+    lapsTotalNum:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 140,
+        height: 100,
+        left: 160,
+        bottom: 53,
+    },
+    position:{
+        fontSize: 10,
+        fontWeight: 'normal',
+        color: 'white',
+        left: 160,
+        bottom: 163,
+    },
+    finalPosition:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 140,
+        height: 100,
+        left: 160,
+        bottom: 163,
+    },
+    cars:{
+        fontSize: 10,
+        fontWeight: 'normal',
+        color: 'white',
+        left: 10,
+        bottom: 50,
+    },
+    carsTotal:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 140,
+        height: 100,
+        left: 10,
+        bottom: 50,
+    },
+    grafica1:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 420,
+        height: 200,
+        left: 20,
+        top: 30,
+    },
+    grafica2:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 420,
+        height: 200,
+        left: 460,
+        bottom: 170,
+    },
+    grafica3:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 420,
+        height: 200,
+        left: 20,
+        bottom: 140,
+    },
+    grafica4:{
+        backgroundColor: 'white',
+        borderRadius: 5,
+        width: 420,
+        height: 200,
+        left: 460,
+        bottom: 340,
+    },
+    
+});
+
+  
+export default styles;
